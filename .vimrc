@@ -17,7 +17,7 @@ set cino=g0,:0
 
 "Tagbar
 let g:tagbar_width=35	"宽度
-let g:tagbar_ctags_bin='/usr/bin/ctags'  "设置tagbar使用的ctags的插件
+let g:tagbar_ctags_bin='/data/data/com.termux/files/usr/bin/ctags'  "设置tagbar使用的ctags的插件
 let g:tagbar_right=1	"位置在右侧
 let g:tagbar_autofocus=0	"是否自动聚焦 
 autocmd BufReadPost *.cpp,*.c,*.h,*.hpp,*.cc,*.cxx call tagbar#autoopen() "打开文件自动打开tagbar   
