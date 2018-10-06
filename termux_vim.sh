@@ -9,3 +9,5 @@ source ~/.bashrc
 
 apt-vim install -y https://github.com/scrooloose/nerdtree.git
 
+cp -rf .vimrc ~/.vimrc
+
